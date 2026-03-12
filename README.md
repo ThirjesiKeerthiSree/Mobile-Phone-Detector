@@ -62,7 +62,7 @@ Once the transistor is activated, it powers an **LED indicator**, providing a vi
 
 ## Circuit Diagram
 
-<img src="images/circuit_diagram.png" width="600">
+<img src="images/circuit_diagram.jpeg" width="600">
 
 ---
 
