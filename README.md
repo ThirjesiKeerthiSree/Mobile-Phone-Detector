@@ -70,4 +70,3 @@ Once the transistor is activated, it powers an **LED indicator**, providing a vi
 
 **Thirjesi Keerthi Sree**  
 Electronics Engineering Student  
-Interested in **Embedded Systems, RF Electronics, and IoT Applications**
