@@ -1,37 +1,73 @@
 # RF Mobile Phone Detector
 
 ## Overview
-The RF Mobile Phone Detector is an analog electronic circuit designed to detect electromagnetic signals emitted by active mobile communication devices. The system senses radio frequency (RF) signals typically generated during phone calls, messaging, or data transmission and provides a visual alert when such signals are detected.
+The **RF Mobile Phone Detector** is an analog electronic system designed to detect electromagnetic radiation emitted by active mobile communication devices. Mobile phones continuously transmit radio frequency (RF) signals during operations such as calls, messaging, and data communication.
 
-The circuit operates within the **800 MHz – 2.5 GHz frequency range**, corresponding to common mobile communication bands. Weak RF signals captured from the environment are amplified and used to trigger an indicator.
+This circuit detects those RF emissions and provides a **visual indication when a mobile phone is actively transmitting nearby**. The detector operates in the **800 MHz – 2.5 GHz frequency range**, which covers common cellular communication bands used by modern mobile devices.
+
+Weak RF signals present in the surrounding environment are captured, amplified, and processed to trigger an indicator when the signal strength exceeds a predefined threshold.
+
+---
 
 ## Objective
-- Detect electromagnetic emissions from nearby mobile phones.
-- Develop a compact and cost-effective RF detection circuit.
+
+- Detect RF emissions from nearby mobile phones during active communication.
+- Design a **simple and low-cost analog RF detection circuit**.
 - Demonstrate practical RF signal sensing using analog electronic components.
+- Provide a visual alert when mobile phone activity is detected.
+
+---
 
 ## Working Principle
-The circuit captures RF signals emitted by mobile devices using a sensing network connected to a **CA3130 operational amplifier**. The op-amp amplifies weak RF signals present in the surrounding environment.
 
-When the amplified signal exceeds a threshold level, a **BC548 transistor** acts as a switching device and activates an **LED indicator**, providing a visual alert that mobile phone activity has been detected.
+The detector circuit senses electromagnetic radiation emitted by nearby mobile devices using a **sensing network connected to a CA3130 operational amplifier**.
+
+The **CA3130 op-amp** functions as a high-gain amplifier that boosts weak RF signals captured from the environment. When the detected signal exceeds a predefined threshold, the amplified output drives a **BC548 transistor**, which operates as a switching element.
+
+Once the transistor is activated, it powers an **LED indicator**, providing a visual signal that RF activity has been detected nearby.
+
+---
 
 ## Components Used
-- CA3130 Operational Amplifier  
-- BC548 Transistor  
-- Resistors (100 kΩ, 2.2 MΩ, 1 kΩ)  
-- Capacitors (47 pF, 0.22 µF, 100 µF)  
-- LED Indicator  
-- 9V Battery  
-- Breadboard / PCB  
 
+| Component | Description |
+|-----------|-------------|
+| CA3130 Operational Amplifier | High-input impedance op-amp used for RF signal amplification |
+| BC548 Transistor | NPN transistor used as a switching device |
+| Resistors | 100 kΩ, 2.2 MΩ, 1 kΩ |
+| Capacitors | 47 pF, 0.22 µF, 100 µF |
+| LED | Visual indicator for RF signal detection |
+| 9V Battery | Power supply for the circuit |
+| Breadboard / PCB | Platform for circuit assembly |
+
+---
 
 ## Applications
-- Exam halls for detecting unauthorized phone usage  
-- Security-sensitive environments  
-- Hospitals and ICUs where RF interference must be minimized  
-- Corporate meeting rooms and confidential areas  
+
+- Monitoring unauthorized mobile phone usage in **examination halls**
+- Security enforcement in **restricted areas**
+- RF monitoring in **hospitals and ICUs** where wireless interference must be minimized
+- Detection of mobile activity in **confidential meeting rooms and secure facilities**
+
+---
 
 ## Future Improvements
-- Increase detection range using improved antenna structures  
-- Integrate audio or buzzer alerts for enhanced indication  
-- Implement digital signal processing for more precise RF detection  
+
+- Increase detection range using improved **antenna structures**
+- Add **audio alerts or buzzers** for better notification
+- Implement **signal filtering techniques** to reduce false detections
+- Develop a **microcontroller-based RF monitoring system** for enhanced accuracy
+
+---
+
+## Circuit Diagram
+
+<img src="images/circuit_diagram.png" width="600">
+
+---
+
+## Author
+
+**Thirjesi Keerthi Sree**  
+Electronics Engineering Student  
+Interested in **Embedded Systems, RF Electronics, and IoT Applications**
